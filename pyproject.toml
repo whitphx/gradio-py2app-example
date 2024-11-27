@@ -4,4 +4,12 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "gradio>=5.3.0",
+    "pywebview>=5.3.2",
+]
+
+[tool.uv]
+dev-dependencies = [
+    "py2app>=0.28.8",
+]
