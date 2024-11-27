@@ -12,4 +12,5 @@ dependencies = [
 [tool.uv]
 dev-dependencies = [
     "py2app>=0.28.8",
+    "pyinstaller>=6.11.1",
 ]
