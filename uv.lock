@@ -241,6 +241,29 @@ wheels = [
 ]
 
 [[package]]
+name = "gradio-py2app-example"
+version = "0.1.0"
+source = { virtual = "." }
+dependencies = [
+    { name = "gradio" },
+    { name = "pywebview" },
+]
+
+[package.dev-dependencies]
+dev = [
+    { name = "py2app" },
+]
+
+[package.metadata]
+requires-dist = [
+    { name = "gradio", specifier = ">=5.3.0" },
+    { name = "pywebview", specifier = ">=5.3.2" },
+]
+
+[package.metadata.requires-dev]
+dev = [{ name = "py2app", specifier = ">=0.28.8" }]
+
+[[package]]
 name = "h11"
 version = "0.14.0"
 source = { registry = "https://pypi.org/simple" }
@@ -752,29 +775,6 @@ sdist = { url = "https://files.pythonhosted.org/packages/46/fa/c7c8163879bdc6984
 wheels = [
     { url = "https://files.pythonhosted.org/packages/b4/4f/fadb1eb352dbe8171dba983a7b8234af50e493b1a8aedb7fef902550019f/pywebview-5.3.2-py3-none-any.whl", hash = "sha256:55f5a4bcfaa56738f2d6206977bd3d2864784249b0646c67e84f402ba1740000", size = 452171 },
 ]
-
-[[package]]
-name = "pywebview-desktop-trial"
-version = "0.1.0"
-source = { virtual = "." }
-dependencies = [
-    { name = "gradio" },
-    { name = "pywebview" },
-]
-
-[package.dev-dependencies]
-dev = [
-    { name = "py2app" },
-]
-
-[package.metadata]
-requires-dist = [
-    { name = "gradio", specifier = ">=5.3.0" },
-    { name = "pywebview", specifier = ">=5.3.2" },
-]
-
-[package.metadata.requires-dev]
-dev = [{ name = "py2app", specifier = ">=0.28.8" }]
 
 [[package]]
 name = "pyyaml"

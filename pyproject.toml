@@ -1,5 +1,5 @@
 [project]
-name = "pywebview-desktop-trial"
+name = "gradio-py2app-example"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
